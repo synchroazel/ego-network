@@ -4,22 +4,13 @@ from time import sleep
 import requests
 from tqdm import tqdm
 
-<<<<<<< HEAD
-bearer_token = 'Bearer AAAAAAAAAAAAAAAAAAAAALtoawEAAAAAsWsPhiKWaFzeFs7yw73TCEK9ZnY' \
-               '%3D3JHfPs7T3H645LpQri2bxWc6iMpVivbxe0zINLLcEnfkI4OKsi'
-
-payload = {}
-headers = {
-    'Authorization': bearer_token,
-    'Cookie': 'guest_id=v1%3A164848202636275073'
-=======
 from secrets import bearer_token
 
 payload = {}
 headers = {
     'Authorization': f'Bearer {bearer_token}',
     'Cookie': ''
->>>>>>> 58011a5 (new, reviewed version)
+
 }
 
 
